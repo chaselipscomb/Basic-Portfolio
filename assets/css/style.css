@@ -39,13 +39,30 @@ span {
     background-color: white;
     width: 960px;
     height: 350px;
-    padding: 20px;
+    padding: 5px;
     position: absolute;
     top: 20px;
     left: 14.5%;
     color: grey;
     font-family: Arial, Helvetica, sans-serif;
+}
+header {margin-left: 20px;}
+.line{
+    background-color: purple;
+    height: 1px;
+    width: 96%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 
+}
+img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+p {
+    margin-right: 20px;
 }
 .bottom {
     background-color: #666666;
