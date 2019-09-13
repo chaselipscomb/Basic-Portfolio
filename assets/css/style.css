@@ -1,5 +1,53 @@
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    border: 1px #dddddd;
+}
+h1 {
+    background-color: #4aaaa5;
+    width: 240px;
+    text-align: center;
+    float: left;   
+    margin-left: 196px; 
+}
+h1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.top {
+    margin-left: 900px;
+}
+span {
+    color: blue;
+}
+
+.background {
+    background-color: #b0b0ee;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-top: 40px;
+}
+.content {
+    z-index: 10;
+    background-color: white;
+    width: 960px;
+    height: 350px;
+    padding: 20px;
+    position: absolute;
+    top: 15px;
+    left: 14.5%;
+
+
+}
+.bottom {
+    background-color: #666666;
+    width: 100%;
+    height: 40px;
+}
+.bottomborder {
+    background-color: lightgray;
+    width: 100%;
+    height:5px;
     
 }
