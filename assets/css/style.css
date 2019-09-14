@@ -78,6 +78,7 @@ p {
     height: 40px;
     position: fixed;
     bottom: 115px;
+    z-index: 11;
 }
 .bottomborder {
     background-color: #4aaaa5;
