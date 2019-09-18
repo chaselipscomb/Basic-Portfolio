@@ -61,12 +61,12 @@ p {
     }
     .content {
         border: 1px solid lightgrey;
-        width: 960px;
+        width: 71%;
         height: 600px;
         background-color: white;
         position: absolute;
-        top: 100px;
-        left: 195px;
+        top: 15%;
+        left: 14%;
     }
     h2 {
         width: 85px;
@@ -91,7 +91,7 @@ p {
         height: 200px;
         width: 250px;
         border: 1px solid white;
-        margin: 20px;
+        margin: 2%;
     }
     #boxone {
         top: 75px;
@@ -141,6 +141,22 @@ p {
         position: absolute;
         top:-8px;
         z-index: 5;
-        margin-left: -1px;
-        
+        margin-left: -1px;    
     }
+    @media (min-width: 576px) {
+        body {min-width: 768px;
+        background-color: yellow;
+    }
+    }
+    @media (min-width: 768px) {
+        body {min-width: 768px;
+        background-color: red;
+}
+}
+@media (min-width: 992px) {
+    body {
+        width:100%;
+        background-color: white;
+    }
+}
+
